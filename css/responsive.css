@@ -23,7 +23,7 @@
     #container .cont02 .title h3 {margin-bottom: 30px; width: 100%; font-size: 48px;}
     #container .cont02 .content_list {margin: 60px auto 0; width: 85%;}
     #container .cont02 .content_list ul {width: 50%;}
-    #container .cont02.visible {visibility: unset; pointer-events: none;}
+    #container .cont02.visible {visibility: unset; pointer-events: inherit ;}
     #container .cont02 .workWrap {padding:180px 0 100px 0; position: static; width: auto; height: auto;}
     #container .cont02 .title {position: static; width: 100%; height: auto;}
     #container .cont02 .workbox {position: static; width: 100%; height: auto;}
