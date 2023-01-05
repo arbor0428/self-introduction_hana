@@ -1,0 +1,119 @@
+@media screen and (max-width:1325px) {
+    .ct-center {width: 93%;}
+    #container .cont01 .infoboxWrap {display: block;}
+    #container .cont01 .infoboxWrap .left-sec {width: 100%; margin-left: 0;}
+    #container .cont01 .profileWrap {display: -webkit-box; display: -ms-flexbox; display: flex; align-items: flex-end;}
+    #container .cont01 .infoboxWrap .left-sec .profilebox {margin-left: 30px;}
+    #container .cont01 .infoboxWrap .left-sec .profilepic img {width: 300px;}
+    #container .cont01 .infoboxWrap .right-sec {margin-top: 80px; width: 100%;}
+    #container .cont02 .workbox .textbox {margin: 33px 0 0 18px;}
+    #container .cont02 .workbox .image {width: 550px;}
+    #container .cont03 .practWrap {width: 93%;}
+    #container .cont03 .practbox {width: 48%; margin: 40px 1% 0;}
+}
+@media screen and (max-width:1024px) {
+    #visual .ct-center .intro .text {font-size: 38px; line-height: 48px;}
+    #visual .ct-center .intro .blink {font-size: 48px;}
+    #container .cont01 .quotebox {margin:30px;}
+    #container .cont01 .ct-center {padding-top: 100px;}
+    #container .cont01 .infoboxWrap .right-sec .infobox_wrap {-ms-flex-wrap: wrap; flex-wrap: wrap; justify-content: normal;}
+    #container .cont01 .infoboxWrap .right-sec .infobox_wrap .infobox {margin: 30px;}
+    #container .cont02 {height: auto; overflow:auto;}
+    #container .cont02 .title {flex-direction: column;}
+    #container .cont02 .title h3 {margin-bottom: 30px; width: 100%; font-size: 48px;}
+    #container .cont02 .content_list {margin: 60px auto 0; width: 85%;}
+    #container .cont02 .content_list ul {width: 50%;}
+    #container .cont02.visible {visibility: unset; pointer-events: none;}
+    #container .cont02 .workWrap {padding:180px 0 100px 0; position: static; width: auto; height: auto;}
+    #container .cont02 .title {position: static; width: 100%; height: auto;}
+    #container .cont02 .workbox {position: static; width: 100%; height: auto;}
+    #container .cont02 .workbox .image .lang {-ms-flex-wrap: wrap; flex-wrap: wrap;}
+    #container .cont02 .workbox .image .lang span {margin: 4px 2px;}
+    #container .cont02 .workbox .image {margin-left: 0; width: 40%;}
+    #container .cont02 .workbox .textbox {margin: 33px 15px 0 15px; width: calc(60% - 30px);}
+    #container .cont02 .workbox .textbox .detailWrap .firstline {width: 13%;}
+    #container .cont02 .workbox .textbox .detailWrap .secondline {width: 87%;}
+    #container .cont04 .last {font-size: 50px; letter-spacing: 5px;}
+    #container .cont04 .last p::after {height: 55px;}
+}
+
+@media screen and (max-width:960px) {
+    #container .cont02 .title {margin-bottom: 200px;}
+    #container .cont02 .workbox {margin: 50px 0; display: block;}
+    #container .cont02 .workbox .image {width: 90%; height: auto; margin: 0 auto;}
+    #container .cont02 .workbox .textbox {width: 90%; margin: 100px auto 60px;}
+    #container .cont02 .workbox .textbox .about-d2 {width: 100%;}
+    #container .cont02 .workbox .textbox h4 {text-align: center; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: center;}
+    #container .cont02 .workbox .textbox p {text-align: center;}
+    #container .cont02 .workbox .textbox h4::before {position: relative;}
+    #container .cont02 .workbox .textbox .about-d2::before {margin: 0 auto 30px;}
+    #container .cont02 .workbox .textbox .about-d2::after {margin: 30px auto 0;}
+    #container .cont02 .workbox .visit_btn_wrap {-webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: center;}
+    #container .cont02 .workbox .visit {margin: 30px 10px 70px;}
+}
+@media screen and (max-width:600px) {
+    #container .wave {height: 37px;}
+    #visual .ct-center .topWrap .cir p {padding: 9px 0px; font-size: 20px;}
+    #visual .ct-center .topWrap h2 {margin-top: 8px; font-size: 22px;}
+    #visual .ct-center .topWrap .top .rightmenu {margin: 0;}
+    #visual .ct-center .topWrap .top .rightmenu li {display: block; margin: 5px 0;}
+    #visual .ct-center .info {top: 50%; font-size: 12px;}
+    #visual .ct-center .phone {left: -104px;}
+    #visual .ct-center .mail {right: -87px;}
+    #visual .ct-center .intro {top: 40%;}
+    #visual .ct-center .intro .text {font-size: 28px; line-height: 38px; letter-spacing: 1px;}
+    #visual .ct-center .intro .blink {font-size: 28px;}
+    .topBtn {bottom: 5%; right: 5%;}
+    @keyframes upward {
+
+        0% {bottom:5%;}
+    
+        100% {bottom:6.5%;}
+    
+    }
+    #container .cont01 .ct-center {width: 90%;}
+    #container .cont01 .profileWrap {display: block;}
+    #container .cont01 h3 {font-size: 28px; text-align: center;}
+    #container .cont01 .infoboxWrap .left-sec .profilepic {margin-top: 30px; text-align: center;}
+    #container .cont01 .infoboxWrap .left-sec .profilepic img {width: 90%;}
+    #container .cont01 .infoboxWrap .left-sec .profilebox {margin-left: 0;}
+    #container .cont01 .infoboxWrap .left-sec .profilebox .line {margin: 0 10px;}
+    #container .cont01 .infoboxWrap .left-sec .profilebox .title li:first-child {margin-right: 15px; font-size: 20px;}
+    #container .cont01 .infoboxWrap .left-sec .profilebox .title li:last-child {font-size: 16px;}
+    #container .cont01 .infoboxWrap .left-sec .profilebox .title {float: none; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: center;}
+    #container .cont01 .infoboxWrap .left-sec .profilebox .line {float:none; margin: 10px auto; display: block; width:60px; height: 2px;}
+    #container .cont01 .infoboxWrap .left-sec .profilebox .content {float: none;}
+    #container .cont01 .infoboxWrap .left-sec .profilebox .content li {text-align: center;}
+    #container .cont01 .quotebox {margin: 30px 0 0 10px;}
+    #container .cont01 .infoboxWrap .right-sec .infobox_wrap .infobox {margin: 30px 0 0 10px;}
+    
+    #container .cont02 .title h3 {margin-bottom: 60px; font-size: 30px;}
+    #container .cont02 .content_list {display: block; margin: 0 auto; width: 90%;}
+    #container .cont02 .content_list ul {width: 100%;}
+    #container .cont02 .content_list ul li {margin-bottom: 30px; font-size: 16px;}
+    #container .cont02 .content_list ul li span {font-size: 14px;}
+    #container .cont02 .workbox .image {width: 100%;}
+    #container .cont02 .workbox .image .lang span {padding: 12px 4px; font-size: 12px;}
+    #container .cont02 .workbox .textbox h4 {font-size: 28px;}
+    #container .cont02 .workbox .textbox h4::before {left: -4px;}
+    #container .cont02 .workbox .textbox .about-d {margin-bottom: 20px; line-height: 1.5;}
+    #container .cont02 .workbox .textbox .about-d2::before {margin: 0 auto 20px;}
+    #container .cont02 .workbox .textbox .about-d2::after {margin: 20px auto 0;}
+    #container .cont02 .workbox .textbox .detailWrap .firstline {width: 25%;}
+    #container .cont02 .workbox .textbox .detailWrap .secondline {width: 75%;}
+    #container .cont02 .workbox .image .hoverbx {bottom: -56%; left: 30%;}
+    #container .cont02 .workbox .image:hover .hoverbx {bottom: 23%;}
+    #container .cont03 .practWrap {margin: 0 auto 100px;}
+    #container .cont03 .practbox {width: 98%;}
+    #container .cont03 h3 {width: auto; font-size: 30px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: center;}
+    #container .cont03 h3::after {position: relative; bottom: -21px;}
+    #container .cont03 .practbox .textbox {margin-top: 30px;}
+    #container .cont03 .practbox .textbox h4 {font-size: 18px;}
+    #container .cont04 .ct-center .phone {left: -104px;}
+    #container .cont04 .ct-center .mail {right: -87px;}
+    #container .cont04 .ct-center .info {font-size: 12px;}
+    #container .cont04 .copyright {width: 100%;}
+    #container .cont04 .last {font-size: 28px; letter-spacing: 1px;}
+    #container .cont04 .last p::after {height: 30px;}
+    #container .cont04 .last span {font-size: 18px; line-height: 1.5;}
+}
