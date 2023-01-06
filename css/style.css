@@ -261,6 +261,7 @@ body {font-family: 'Pretendard'; font-weight:400; font-size:14px; line-height:1;
 
 #container .cont02 .workbox .visit_btn_wrap {display: -webkit-box; display: -ms-flexbox; display: flex;}
 #container .cont02 .workbox .visit {display:block; margin:30px 0 70px 0; background-color:#061028; color:#fff;  width:180px; height:45px; line-height:45px; font-size:15px; font-weight:700; text-align:center; box-sizing:border-box; transition:all 0.3s ease;}
+#container .cont02 .workbox .visit:nth-child(2) {margin: 30px 0 70px 10px;}
 #container .cont02 .workbox .visit:hover {background-color:transparent; background-color:#ffa62b;}
 #container .cont02 .workbox .download {display:inline-block; margin:30px 0 70px 30px; background-color:#061028; color:#fff;  width:180px; height:45px; line-height:45px; font-size:15px; font-weight:700; text-align:center; box-sizing:border-box; transition:all 0.3s ease;}
 #container .cont02 .workbox .download:hover {background-color:transparent; background-color:#ffa62b;}

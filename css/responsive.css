@@ -18,13 +18,14 @@
     #container .cont01 .ct-center {padding-top: 100px;}
     #container .cont01 .infoboxWrap .right-sec .infobox_wrap {-ms-flex-wrap: wrap; flex-wrap: wrap; justify-content: normal;}
     #container .cont01 .infoboxWrap .right-sec .infobox_wrap .infobox {margin: 30px;}
-    #container .cont02 {height: auto; overflow:auto;}
+    #container .cont02 {height: auto;}
     #container .cont02 .title {flex-direction: column;}
     #container .cont02 .title h3 {margin-bottom: 30px; width: 100%; font-size: 48px;}
     #container .cont02 .content_list {margin: 60px auto 0; width: 85%;}
     #container .cont02 .content_list ul {width: 50%;}
     #container .cont02.visible {visibility: unset; pointer-events: inherit ;}
     #container .cont02 .workWrap {padding:180px 0 100px 0; position: static; width: auto; height: auto;}
+    #container .cont02 .workbox .image .hoverbx {left: 50%; transform: translateX(-50%);}
     #container .cont02 .title {position: static; width: 100%; height: auto;}
     #container .cont02 .workbox {position: static; width: 100%; height: auto;}
     #container .cont02 .workbox .image .lang {-ms-flex-wrap: wrap; flex-wrap: wrap;}
@@ -50,6 +51,7 @@
     #container .cont02 .workbox .textbox .about-d2::after {margin: 30px auto 0;}
     #container .cont02 .workbox .visit_btn_wrap {-webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: center;}
     #container .cont02 .workbox .visit {margin: 30px 10px 70px;}
+    #container .cont02 .workbox .visit:nth-child(2) {margin: 30px 10px 70px;}
 }
 @media screen and (max-width:600px) {
     #container .wave {height: 37px;}
@@ -101,7 +103,7 @@
     #container .cont02 .workbox .textbox .about-d2::after {margin: 20px auto 0;}
     #container .cont02 .workbox .textbox .detailWrap .firstline {width: 25%;}
     #container .cont02 .workbox .textbox .detailWrap .secondline {width: 75%;}
-    #container .cont02 .workbox .image .hoverbx {bottom: -56%; left: 30%;}
+    #container .cont02 .workbox .image .hoverbx {bottom: -56%;}
     #container .cont02 .workbox .image:hover .hoverbx {bottom: 23%;}
     #container .cont03 .practWrap {margin: 0 auto 100px;}
     #container .cont03 .practbox {width: 98%;}
