@@ -32,7 +32,8 @@
     #container .cont02 .workbox .image .lang span {margin: 4px 2px;}
     #container .cont02 .workbox .image {margin-left: 0; width: 40%;}
     #container .cont02 .workbox .textbox {margin: 33px 15px 0 15px; width: calc(60% - 30px);}
-    #container .cont02 .workbox .textbox .detailWrap .firstline {width: 13%;}
+    #container .cont02 .workbox .textbox .detailWrap ul li {align-items: flex-start;}
+    #container .cont02 .workbox .textbox .detailWrap .firstline {width: 13%; line-height: 1.5;}
     #container .cont02 .workbox .textbox .detailWrap .secondline {width: 87%;}
     #container .cont04 .last {font-size: 50px; letter-spacing: 5px;}
     #container .cont04 .last p::after {height: 55px;}
@@ -61,7 +62,7 @@
     #visual .ct-center .topWrap .top .rightmenu li {display: block; margin: 5px 0;}
     #visual .ct-center .info {top: 50%; font-size: 12px;}
     #visual .ct-center .phone {left: -104px;}
-    #visual .ct-center .mail {right: -87px;}
+    #visual .ct-center .mail {right: -118px;}
     #visual .ct-center .intro {top: 40%;}
     #visual .ct-center .intro .text {font-size: 28px; line-height: 38px; letter-spacing: 1px;}
     #visual .ct-center .intro .blink {font-size: 28px;}
@@ -76,6 +77,7 @@
     #container .cont01 .ct-center {width: 90%;}
     #container .cont01 .profileWrap {display: block;}
     #container .cont01 h3 {font-size: 28px; text-align: center;}
+    #container .cont01 .quotebox .tool_list li {margin-right: 10px; margin-bottom: 20px;}
     #container .cont01 .infoboxWrap .left-sec .profilepic {margin-top: 30px; text-align: center;}
     #container .cont01 .infoboxWrap .left-sec .profilepic img {width: 90%;}
     #container .cont01 .infoboxWrap .left-sec .profilebox {margin-left: 0;}
@@ -102,7 +104,7 @@
     #container .cont02 .workbox .textbox .about-d2::before {margin: 0 auto 20px;}
     #container .cont02 .workbox .textbox .about-d2::after {margin: 20px auto 0;}
     #container .cont02 .workbox .textbox .detailWrap .firstline {width: 25%;}
-    #container .cont02 .workbox .textbox .detailWrap .secondline {width: 75%;}
+    #container .cont02 .workbox .textbox .detailWrap .secondline {margin-left: 0; width: 75%;}
     #container .cont02 .workbox .image .hoverbx {bottom: -56%;}
     #container .cont02 .workbox .image:hover .hoverbx {bottom: 23%;}
     #container .cont03 .practWrap {margin: 0 auto 100px;}
