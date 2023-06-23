@@ -282,6 +282,7 @@ body {font-family: 'Pretendard'; font-weight:400; font-size:14px; line-height:1;
 #container .cont03 .practWrap {display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; width:1180px; margin:0px auto 400px;}
 #container .cont03 .practWrap .cssbox {border-radius:20px; perspective: 1000px;}
 #container .cont03 .practWrap .react01 {height:246px; background-image: url("../img/react_practice.png"); background-position: center center; background-repeat: no-repeat; background-size: 100% auto;}
+#container .cont03 .practWrap .react02 {height:246px; background-image: url("../img/react_practice02.png"); background-position: center center; background-repeat: no-repeat; background-size: 100% auto;}
 #container .cont03 .practWrap .css01 {height:246px; background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);}
 #container .cont03 .practWrap .css02 {height:246px; background: linear-gradient(135deg,#B1EA4D 0%,#459522 100%);}
 #container .cont03 .practWrap .css03 {height:246px; background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);}
