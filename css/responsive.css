@@ -57,6 +57,7 @@
 @media screen and (max-width:600px) {
     #container .wave {height: 37px;}
     #visual .ct-center .topWrap .cir p {padding: 9px 0px; font-size: 20px;}
+    #visual .ct-center .topWrap {padding: 15px;}
     #visual .ct-center .topWrap h2 {margin-top: 8px; font-size: 22px;}
     #visual .ct-center .topWrap .top .rightmenu {margin: 0;}
     #visual .ct-center .topWrap .top .rightmenu li {display: block; margin: 5px 0;}

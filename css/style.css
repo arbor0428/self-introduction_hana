@@ -62,7 +62,19 @@ body {font-family: 'Pretendard'; font-weight:400; font-size:14px; line-height:1;
 .ct-center {width:85%; margin:0 auto;}
 #visual {padding-bottom:90px; background-color:#ecebe7;}
 #visual .ct-center {position:relative; height:763px;}
-#visual .ct-center .topWrap {display:flex; padding-top:30px;}
+#visual .ct-center .topWrap {
+  display: flex;
+  /* padding-top: 30px; */
+  padding: 20px 40px;
+  box-sizing: border-box;
+  position: fixed;
+  background-color: rgb(255,255,255,0.4);
+  left: 0;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 4500;
+}
 #visual .ct-center .topWrap .top {width:33.333333%;}
 #visual .ct-center .topWrap .cir p {width:90px; padding:10px 20px; border-radius:50%; border:2px solid #061028; font-family:"Rubik"; font-weight:800; color:#ffa62b; font-size:28px; text-align:center;}
 #visual .ct-center .topWrap h2 {margin-top:15px; text-align:center; color:#061028; font-size:26px; font-weight:600;}
