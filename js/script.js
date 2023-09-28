@@ -94,7 +94,8 @@ $(function(){
         
         let seclist = $(this).index();
         secMove = $("#container .cont").eq(seclist).offset().top;
-        
+        $(".rightmenu li").removeClass("on");
+        $(this).addClass("on");
         $("html,body").stop().animate({"scrollTop":secMove},1000);
         
     });
