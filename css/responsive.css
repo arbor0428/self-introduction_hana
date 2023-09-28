@@ -40,10 +40,12 @@
 }
 
 @media screen and (max-width:960px) {
-    #container .cont02 .title {margin-bottom: 200px;}
+    #port {margin-top: 0; height: auto;}
+    #container .cont02 .title {top: 0; padding-top: 100px; height: auto;}
+    #container .cont02 .workWrap {padding: 100px 0;}
     #container .cont02 .workbox {margin: 50px 0; display: block;}
     #container .cont02 .workbox .image {width: 90%; height: auto; margin: 0 auto;}
-    #container .cont02 .workbox .textbox {width: 90%; margin: 100px auto 60px;}
+    #container .cont02 .workbox .textbox {width: 90%; margin: 100px auto 0;}
     #container .cont02 .workbox .textbox .about-d2 {width: 100%;}
     #container .cont02 .workbox .textbox h4 {text-align: center; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: center;}
     #container .cont02 .workbox .textbox p {text-align: center;}

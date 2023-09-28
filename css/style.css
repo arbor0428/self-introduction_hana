@@ -233,10 +233,21 @@ body {font-family: 'Pretendard'; font-weight:400; font-size:14px; line-height:1;
 #container .cont01 .infoboxWrap .right-sec .tool {margin-left:95px;}
 
 
-#container .cont02 {overflow: hidden; height:1500vw; visibility: hidden; pointer-events: none; background-color:#ecebe7;}
+#container .cont02 {overflow: hidden; padding-bottom: 100px; background-color:#ecebe7;}
 #container .cont02.visible {visibility: visible; pointer-events: auto;}
-#container .cont02 .workWrap {position:fixed; left:0; bottom:0; width:1500%; height:100vh;}
-#container .cont02 .title {display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; position:absolute; width: 6.666%; left: 0; top: 0; height: 100vh;}
+#port {
+    width: 100%;
+    margin-top: 100px;
+    height: 100%;
+    overflow: hidden;
+}
+#container .cont02 .workWrap {    
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 120px;
+  width: 20160px;
+}
+#container .cont02 .title {display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; width: 100%; position: relative; top: -100px; height: 100vh;}
 #container .cont02 .title h3 {width:40%; text-align: center; font-size: 60px; font-weight: 800;}
 #container .cont02 .content_list {width: 60%; display: -webkit-box; display: -ms-flexbox; display: flex;}
 #container .cont02 .content_list ul {width: 45%;}
@@ -244,28 +255,14 @@ body {font-family: 'Pretendard'; font-weight:400; font-size:14px; line-height:1;
 #container .cont02 .content_list ul li span {margin-left: 5px; color: #979797; font-size: 16px;}
 #container .cont02 .content_list ul li::before {display: block; content: ""; margin-right: 10px; border-radius: 3px; width: 14px; height: 3px; background-color: #ffa62b;}
 
-#container .cont02 .workbox {position: absolute; width: 6.666%; top: 0; height: 100vh; display:flex; margin:190px 0;}
-#container .cont02 .workbox.work1 {left: 6.666%;}
-#container .cont02 .workbox.work2 {left: 13.332%;}
-#container .cont02 .workbox.work3 {left: 19.998%;}
-#container .cont02 .workbox.work4 {left: 26.664%;}
-#container .cont02 .workbox.work5 {left: 33.33%;}
-#container .cont02 .workbox.work6 {left: 39.996%;}
-#container .cont02 .workbox.work7 {left: 46.662%;}
-#container .cont02 .workbox.work8 {left: 53.328%;}
-#container .cont02 .workbox.work9 {left: 59.994%;}
-#container .cont02 .workbox.work10 {left: 66.66%;}
-#container .cont02 .workbox.work11 {left: 73.326%;}
-#container .cont02 .workbox.work12 {left: 79.992%;}
-#container .cont02 .workbox.work13 {left: 86.658%;}
-#container .cont02 .workbox.work14 {left: 93.324%;}
+#container .cont02 .workbox {display:flex; margin:0 60px; width: 1320px; height: 70vh;}
 
 
-#container .cont02 .workbox .image {position:relative; top:10px; margin-left:30px; width:589px; height:580px; transition:all 0.3s; overflow:hidden;}
+#container .cont02 .workbox .image {position:relative; top:10px; width:589px; height:580px; transition:all 0.3s; overflow:hidden;}
 #container .cont02 .workbox .image:hover {top:-10px;}
 #container .cont02 .workbox .image .hoverbx {position:absolute; bottom:-29%; left:37%; color:#fff; background-color:rgb(255,166,43,0.8); width:150px; height:150px; line-height:150px; border-radius:50%; text-align:center; font-size:18px; letter-spacing:2px; transition:all 0.5s;}
 #container .cont02 .workbox .image:hover .hoverbx {bottom:40%;}
-#container .cont02 .workbox .textbox {margin:33px 0 0 150px; font-size:16px;}
+#container .cont02 .workbox .textbox {margin:33px 0 0 70px; font-size:16px;}
 #container .cont02 .workbox .image .lang {position:relative; top:14px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: center;}
 #container .cont02 .workbox .image .lang span {display:inline-block; margin:0 2px; padding:12px 14px; border:1px solid #555; color:#000; font-family: "Rubik"; font-weight:500; font-size:15px; transition:all 0.3s;}
 

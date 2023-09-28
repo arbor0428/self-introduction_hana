@@ -118,24 +118,24 @@ $(function(){
     });
 
     //workWrap 가로스크롤 기능
+    gsap.registerPlugin(ScrollTrigger);
+    const horSection = gsap.utils.toArray(".workbox");
 
-    $(window).scroll(function () {
-        const wScroll = $(this).scrollTop();
-        const $cont1 = $('#container .cont:nth-child(1)');
-        const $cont2 = $('#container .cont:nth-child(2)');
-
-        if( wScroll > $cont1.offset().top ){
-            $cont2.addClass('visible');
-        }else{
-            $cont2.removeClass('visible');
-        }
-
-        var offsetLeft = (wScroll - $cont2.offset().top);
-        if(wScroll > $cont2.offset().top + 1000){
-            gsap.to($cont2.find('.workWrap'), {left:-offsetLeft + 1000 +"px"});
-        }else{
-            $cont2.find('.workWrap').css("left",+ 0 +"px");
-        }
-    });
+    if (window.innerWidth >= 960) {
+        gsap.to(horSection, {
+            xPercent: -120 * (horSection.length - 1),
+            ease: "none",
+            scrollTrigger: {
+                trigger: "#port",
+                start: "-120px 100px",
+                end: "+=2500",
+                pin: true,
+                scrub: 1,
+                markers: false,
+                invalidateOnRefresh: true,
+                anticipatePin: 1,
+            },
+        });
+    }
 
 });
