@@ -33,11 +33,12 @@
     <script src="js/aos.js"></script>
     <script src="js/script.js"></script>
     <script src="js/imagesloaded.pkgd.min.js"></script>
-        <!-- GSAP 라이브러리 설정 -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollToPlugin.min.js"></script>
-</head>
+    <!-- GSAP 라이브러리 설정 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollToPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1/bundled/lenis.min.js"></script>
+    </head>
 <body>
     <div class="progress progress-complete" id="progress">
         <span class="progress-bar"></span>
@@ -87,8 +88,10 @@
     </div>
     <div id="container">
         <section class="cont cont01">
-            <div class="ocean">
-                <div class="wave"></div>
+            <div class="ocean__wrap">
+                <div class="ocean">
+                    <div class="wave"></div>
+                </div>
             </div>
             <div class="ct-center">
                 <div class="infoboxWrap">
@@ -191,8 +194,10 @@
             </div>
         </section>
         <section class="cont cont02">
-            <div class="ocean">
-                <div class="wave"></div>
+            <div class="ocean__wrap">
+                <div class="ocean">
+                    <div class="wave"></div>
+                </div>
             </div>
             <div class="title">
                 <h3>CONTENTS</h3>
@@ -896,276 +901,94 @@
             </div>
         </section> 
         <section class="cont cont03">
-            <div class="ocean">
-                <div class="wave"></div>
+            <div class="ocean__wrap">
+                <div class="ocean">
+                    <div class="wave"></div>
+                </div>
             </div>
-            <h3>PRACTICES</h3>
-            <div class="practWrap">
-                <div class="practbox cssbox">
-                    <div class="image react01">
-                        <a class="visit" href="https://gilded-capybara-02bdcb.netlify.app/" target="_blank">
-                            <p>사이트로 방문하기</p>
-                        </a>
-                        <div class="cssbox">
-                            
+            <div class="site__inner">
+                <h2 class="site__title">Practices <em>react.js</em></h2>
+                <div class="site__wrap">
+                    <article class="site__item s1">
+                        <span class="num">1.</span>
+                        <div class="text">
+                            <div>Make</div>
+                            <div>site compliant with</div>
+                            <div>react.js</div>
                         </div>
-                    </div>
-                    <div class="textbox">
-                        <h4>REACT사이트 구현 연습 (+입력폼/반응형)</h4>
-                    </div>
+                        <h3 class="title">리액트를 이용한 사이트 제작</h3>
+                        <div class="btn">
+                            <a href="https://github.com/arbor0428/react_clone01">code</a>
+                            <a href="https://gilded-capybara-02bdcb.netlify.app/">view</a>
+                        </div>
+                        <div class="info">
+                            <span>site coding</span>
+                            <span>production period : 7 days</span>
+                            <span>use stack : html5/css3, CSS Variable, react.js</span>
+                        </div>
+                    </article>
+                    <article class="site__item s2">
+                        <span class="num">2.</span>
+                        <div class="text">
+                            <div>Make</div>
+                            <div>site compliant with</div>
+                            <div>react.js</div>
+                        </div>
+                        <h3 class="title">리액트를 이용한 투두리스트</h3>
+                        <div class="btn">
+                            <a href="https://github.com/arbor0428/todo-list">code</a>
+                            <a href="https://sage-belekoy-3f0d37.netlify.app/">view</a>
+                        </div>
+                        <div class="info">
+                            <span>site coding</span>
+                            <span>production period : 7 days</span>
+                            <span>use stack : html5/css3, CSS Variable, react.js</span>
+                        </div>
+                    </article>
+                    <article class="site__item s3">
+                        <span class="num">3.</span>
+                        <div class="text">
+                            <div>Make</div>
+                            <div>site compliant with</div>
+                            <div>react.js</div>
+                        </div>
+                        <h3>youtube API를 활용한 프로젝트</h3>
+                        <div class="btn">
+                            <a href="https://github.com/arbor0428/react_youtube">code</a>
+                            <a href="https://master--flourishing-lebkuchen-fcb261.netlify.app/">view</a>
+                        </div>
+                        <div class="info">
+                            <span>site coding</span>
+                            <span>production period : 7 days</span>
+                            <span>use stack : html5/css3, CSS Variable, react.js</span>
+                        </div>
+                    </article>
+                    <article class="site__item s4">
+                        <span class="num">4.</span>
+                        <div class="text">
+                            <div>Make</div>
+                            <div>site compliant with</div>
+                            <div>react.js</div>
+                        </div>
+                        <h3>리액트를 이용한 쇼핑몰 제작</h3>
+                        <div class="btn">
+                            <a href="https://github.com/arbor0428/shoppy">code</a>
+                            <a href="https://resilient-selkie-38c036.netlify.app/">view</a>
+                        </div>
+                        <div class="info">
+                            <span>site coding</span>
+                            <span>production period : 7 days</span>
+                            <span>use stack : html5/css3, CSS Variable, react.js</span>
+                        </div>
+                    </article>
                 </div>
-                <div class="practbox cssbox">
-                    <div class="image react02">
-                        <a class="visit" href="https://sage-belekoy-3f0d37.netlify.app/" target="_blank">
-                            <p>사이트로 방문하기</p>
-                        </a>
-                        <div class="cssbox">
-                            
-                        </div>
-                    </div>
-                    <div class="textbox">
-                        <h4>REACT- TodoList 구현</h4>
-                    </div>
-                </div>
-                <div class="practbox cssbox">
-                    <div class="image css01">
-                        <a class="visit" href="https://codepen.io/hana0505/pen/eYRQMJK" target="_blank">
-                            <p>코드펜에서 보기</p>
-                        </a>
-                        <div class="cubewrap cssbox">
-                            <div class="cube">
-                                <div></div>
-                                <div></div>
-                                <div></div>
-                                <div></div>
-                                <div></div>
-                                <div></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="textbox">
-                        <h4>CSS Animation - Cube Animation</h4>
-                    </div>
-                </div>
-                <div class="practbox cssbox">
-                    <div class="image css02">
-                        <a class="visit" href="https://codepen.io/hana0505/pen/eYRQMJK" target="_blank">
-                            <p>코드펜에서 보기</p>
-                        </a>
-                        <div class="circles">
-                            <div class="row">
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                            </div>
-                            <div class="row">
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                            </div>
-                            <div class="row">
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                            </div>
-                            <div class="row">
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                            </div>
-                            <div class="row">
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                            </div>
-                            <div class="row">
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                            </div>
-                            <div class="row">
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                            </div>
-                            <div class="row">
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                            </div>
-                            <div class="row">
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                            </div>
-                            <div class="row">
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                            </div>
-                            <div class="row">
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                            </div>
-                            <div class="row">
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                                <div class="circle"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="textbox">
-                        <h4>CSS Animation - Wave Animation</h4>
-                    </div>
-                </div>
-                <div class="practbox cssbox">
-                    <div class="image css03">
-                        <a class="visit" href="https://codepen.io/hana0505/pen/mdwzqdE" target="_blank">
-                            <p>코드펜에서 보기</p>
-                        </a>
-                        <div class="tail">
-                            <div></div>
-                        </div>
-                        <div class="tail">
-                            <div></div>
-                        </div>
-                        <div class="tail">
-                            <div></div>
-                        </div>
-                        <div class="tail">
-                            <div></div>
-                        </div>
-                        <div class="tail">
-                            <div></div>
-                        </div>
-                    </div>
-                    <div class="textbox">
-                        <h4>CSS Animation - Tail Animation</h4>
-                    </div>
-                </div>
-                <div class="practbox cssbox">
-                    <div class="image css04">
-                        <a class="visit" href="https://codepen.io/hana0505/pen/eYRQrqd" target="_blank">
-                            <p>코드펜에서 보기</p>
-                        </a>
-                        <div class="bar"></div>
-                    </div>
-                    <div class="textbox">
-                        <h4>CSS Animation - Bar Animation</h4>
-                    </div>
-                </div>
-<!--                 <div class="practbox" data-aos="fade-right" data-aos-duration="1000">
-                    <div class="image">
-                        <a class="visit" href="https://github.com/whynot1217/effect_parallax/parallaxEffect01-javascript.html" target="_blank">
-                            <p>페이지보기</p>
-                        </a>
-                        <img src="img/parallax.png">
-                    </div>
-                    <div class="textbox">
-                        <h4>Parallax Effect-javascript</h4>
-                    </div>
-                </div>
-                <div class="practbox" data-aos="fade-right" data-aos-duration="1000">
-                    <div class="image">
-                        <a class="visit" href="https://github.com/whynot1217/effect_parallax/parallaxEffect01-jquery.html" target="_blank">
-                            <p>페이지보기</p>
-                        </a>
-                        <img src="img/parallax.png">
-                    </div>
-                    <div class="textbox">
-                        <h4>Parallax Effect-jquery</h4>
-                    </div>
-                </div> -->
             </div>
         </section>
         <section class="cont cont04">
-            <div class="ocean">
-                <div class="wave"></div>
+            <div class="ocean__wrap">
+                <div class="ocean">
+                    <div class="wave"></div>
+                </div>
             </div>
             <div class="ct-center">
                 <div class="last">

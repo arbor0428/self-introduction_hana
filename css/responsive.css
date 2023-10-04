@@ -8,8 +8,6 @@
     #container .cont01 .infoboxWrap .right-sec {margin-top: 80px; width: 100%;}
     #container .cont02 .workbox .textbox {margin: 33px 0 0 18px;}
     #container .cont02 .workbox .image {width: 550px;}
-    #container .cont03 .practWrap {width: 93%;}
-    #container .cont03 .practbox {width: 48%; margin: 40px 1% 0;}
 }
 @media screen and (max-width:1024px) {
     #visual .ct-center .intro .text {font-size: 38px; line-height: 48px;}
@@ -110,12 +108,9 @@
     #container .cont02 .workbox .textbox .detailWrap .secondline {margin-left: 0; width: 75%;}
     #container .cont02 .workbox .image .hoverbx {bottom: -56%;}
     #container .cont02 .workbox .image:hover .hoverbx {bottom: 23%;}
-    #container .cont03 .practWrap {margin: 0 auto 100px;}
-    #container .cont03 .practbox {width: 98%;}
+
     #container .cont03 h3 {width: auto; font-size: 30px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: center;}
-    #container .cont03 h3::after {position: relative; bottom: -21px;}
-    #container .cont03 .practbox .textbox {margin-top: 30px;}
-    #container .cont03 .practbox .textbox h4 {font-size: 18px;}
+
     #container .cont04 .ct-center .phone {left: -104px;}
     #container .cont04 .ct-center .mail {right: -87px;}
     #container .cont04 .ct-center .info {font-size: 12px;}
